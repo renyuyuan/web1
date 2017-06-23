@@ -1,0 +1,52 @@
+*{padding: 0;margin: 0;}
+body{background-color: #eee;}
+.banner{width: 100%;background-color: #333;height: 40px;}
+.banner .part{width: 1015px;height: 40xp;margin: 0 auto;}
+.banner .love{float: left;width: 50px;height: 40px;margin: 0;}
+.banner img{display: block;height: 40px;float: left;margin-right:50px; }
+.banner .menu{height: 40px;padding-left: 50px;}
+.banner .menu ul li{float: left;width: 100px;float: left;height: 40px;line-height: 40px;list-style: none;
+border-left: 1px solid #222;border-right: 1px solid #222;position: relative;}
+.banner .menu ul li a{display: block;text-decoration: none;text-align: center;
+	font-size: 14px;color: #ddd;}
+.banner .menu ul li a:hover{text-decoration: underline;color: #fff;}
+.banner .menu ul li ul{position: relative;display: none;}
+.banner .menu ul li:hover ul{display: block;width: 100px;border-left: 1px solid #222;border-right: 1px solid #222;}
+.banner .menu ul li:hover ul li{background-color: #333;color: #ddd;border:1px solid #222;}
+.logo{width: 1000px;height: 280px;margin: 0 auto;background-color: #333;border:3px solid #222;margin-top: 5px;}
+.logo img{display: block;height: 280px;float: left;margin: 0;width: 200px; }
+.content{width: 1000px;height: auto;margin: 10px auto;}
+.content .lefter{width: 600px;float: left;}
+.content .lefter h4{width: 600px;height: 30px;font-size: 18px;color: #333;}
+.content .lefter h4 b{display: block;margin-left: 8px;}
+.content .lefter h4 img{display: block;height: 30px;float: left;margin-left: 230px;margin-right: 0;}
+.content .lefter .top{width: 600px;}
+.content .lefter .top .images{width: 182px;float: left;margin:5px;}
+.content .lefter .top .images img{height:250px;display: block;border:1px solid #222;margin-bottom: 10px;}
+.content .lefter .top h5{width: 180px;text-align: center;font-size:12px;color: #222;margin-top: 10px;}
+.content .lefter .top h6{width: 180px;font-size: 10px;color: #555;margin-top:3px;}
+.content .lefter .bottom{width: 600px;}
+.content .lefter .bottom .images{width: 182px;float: left;margin:5px;}
+.content .lefter .bottom .images img{height:250px;display: block;border:1px solid #222;margin-bottom: 10px;}
+.content .lefter .bottom h5{width: 180px;text-align: center;font-size:12px;color: #222;margin-top: 10px;}
+.content .lefter .bottom h6{width: 180px;font-size: 10px;color: #555;margin-top:3px;}
+
+.content .righter{width: 400px;float: left;}
+.content .righter .top{width: 390px;height: auto;
+	background-color: #111;padding-left: 10px;
+margin-top: 10px;clear: both;}
+.content .righter ul{list-style: none;width: 400px;}
+.content .righter ul li{height: 30xp;}
+.content .righter ul li a{display: block;
+	font-size: 12px;text-decoration: none;
+	height:30px;line-height: 30px;color: #ddd;}
+.content .righter .bottom{width: 400px;height: auto;margin-top: 5px;clear: both;}
+.content .righter .bottom img{display: block;height: 240px;margin:10px auto;float: left;}
+.content .righter .bottom .right{float: right;margin-top: 10px;}
+.content .righter .bottom .right .denglu{height:77px;width:145px;margin-right: 5px;background-color: #111;line-height: 77px;
+	color: #ddd;text-align: center;margin-left: 5px;}
+.content .righter .bottom .right .VIP{height:77px;width:145px;margin-right: 5px;background-color: #111;line-height: 77px;
+	color: #ddd;text-align: center;border:2px solid #ddd;margin-left: 5px;}
+.content .righter .bottom .right .guanggao{height:77px;width:145px;margin-right: 5px;background-color: #111;line-height: 77px;
+	color: #ddd;text-align: center;margin-left: 5px;}
+.footer{width: 100%;font-size: 14px;height: 30px;line-height: 30px;text-align: center;background-color: #333;color: #ddd;clear: both;}

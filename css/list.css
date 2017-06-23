@@ -1,0 +1,29 @@
+*{padding: 0;margin: 0;}
+body{background-color: #eee;}
+.banner{width: 100%;background-color: #333;height: 40px;}
+.banner .part{width: 1015px;height: 40xp;margin: 0 auto;}
+.banner .love{float: left;width: 50px;height: 40px;margin: 0;}
+.banner img{display: block;height: 40px;float: left;margin-right:50px; }
+.banner .menu{height: 40px;padding-left: 50px;}
+.banner .menu ul li{float: left;width: 100px;float: left;height: 40px;line-height: 40px;list-style: none;
+border-left: 1px solid #222;border-right: 1px solid #222;position: relative;}
+.banner .menu ul li a{display: block;text-decoration: none;text-align: center;
+	font-size: 14px;color: #ddd;}
+.banner .menu ul li a:hover{text-decoration: underline;color: #fff;}
+.banner .menu ul li ul{position: relative;display: none;}
+.banner .menu ul li:hover ul{display: block;width: 100px;border-left: 1px solid #222;border-right: 1px solid #222;}
+.banner .menu ul li:hover ul li{background-color: #333;color: #ddd;border:1px solid #222;}
+.logo{width: 1000px;height: 280px;margin: 0 auto;background-color: #333;border:3px solid #222;margin-top: 5px;}
+.logo img{display: block;height: 280px;float: left;margin: 0;width: 200px; }
+.content{width: 1000px;margin: 5px auto;}
+.content .left{width: 200px;float: left;height: auto;}
+.content .left ul{width: 100px;list-style: none;background-color: #fff;padding: 5px 20px;}
+.content .left ul li{width: 160px;height: 30px;}
+.content .left ul li a{text-decoration: none; height: 30px;font-size: 15px;color: #333;line-height: 30px;display: block;}
+.content .left ul li a:hover{text-decoration: underline;color: #aaa;}
+.content .right{width: 650px;float: left;margin-left: 50px;}
+.content .right a{height: 20px;line-height: 20px;font-size:14px;margin: 10px 0;color: #444;font-weight: 300px;
+	display: block;text-decoration: none;}
+.content .right a:hover{text-decoration: underline;color: #aaa;}
+.content .right img{display: block;margin: 0 0 30px;}
+.footer{width: 100%;font-size: 14px;height: 30px;line-height: 30px;text-align: center;background-color: #333;color: #ddd;clear: both;}

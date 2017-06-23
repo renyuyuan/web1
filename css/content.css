@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;}
+body{background-color: #eee;}
+.banner{width: 100%;background-color: #333;height: 40px;}
+.banner .part{width: 1015px;height: 40xp;margin: 0 auto;}
+.banner .love{float: left;width: 50px;height: 40px;margin: 0;}
+.banner img{display: block;height: 40px;float: left;margin-right:50px; }
+.banner .menu{height: 40px;padding-left: 50px;}
+.banner .menu ul li{float: left;width: 100px;float: left;height: 40px;line-height: 40px;list-style: none;
+border-left: 1px solid #222;border-right: 1px solid #222;position: relative;}
+.banner .menu ul li a{display: block;text-decoration: none;text-align: center;
+	font-size: 14px;color: #ddd;}
+.banner .menu ul li a:hover{text-decoration: underline;color: #fff;}
+.banner .menu ul li ul{position: relative;display: none;}
+.banner .menu ul li:hover ul{display: block;width: 100px;border-left: 1px solid #222;border-right: 1px solid #222;}
+.banner .menu ul li:hover ul li{background-color: #333;color: #ddd;border:1px solid #222;}
+.logo{width: 1000px;height: 280px;margin: 0 auto;background-color: #333;border:3px solid #222;margin-top: 5px;}
+.logo img{display: block;height: 280px;float: left;margin: 0;width: 200px; }
+.content{width: 1000px;margin: 0 auto;}
+.content h4{font-size: 16px;padding-top: 5px;margin: 10px 0;}
+.content .left{width: 600px;height: auto;float: left;background-color: #fff;padding: 5px 20px;}
+.content .left h6{font-size: 12px;font-weight: normal;color: #333;line-height: 25px;width: 600px;}
+.content .left img{display: block;margin: 5px auto;width: 600px;height: 800px;}
+.content .right{width: 300px;float: right;margin: 0 20px;position: relative;}
+.content .right .right1{background-color: #fff;width: 300px;height: 100px;margin-bottom: 20px;}
+.content .right .right1 img{display: block;float: left;width: 150px;height: 100px;}
+.content .right .right1 p a{display: block;float: right;width: 140px;height: 100px;text-decoration: none;
+	font-size: 12px;line-height: 15px;color: #aaa;padding-top: 10px;}
+.content .right .right1 p a:hover{text-decoration: underline;color: #666;}
+.content .right .right2{background-color: #fff;width: 300px;height: 100px;margin-bottom: 20px;}
+.content .right .right2 img{display: block;float: left;width: 150px;height: 100px;}
+.content .right .right2 p a{display: block;float: right;width: 140px;height: 100px;
+	text-decoration: none;font-size: 12px;line-height: 15px;color: #aaa;padding-top: 2px;}
+.content .right .right2 p a:hover{text-decoration: underline;color: #666;}
+.content .right .right3{background-color: #fff;width: 300px;height: 100px;margin-bottom: 20px;}
+.content .right .right3 img{display: block;float: left;width: 150px;height: 100px;}
+.content .right .right3 p a{display: block;float: right;width: 140px;height: 100px;
+	text-decoration: none;font-size: 12px;line-height: 15px;color: #aaa;padding-top: 4px;}
+.content .right .right3 p a:hover{text-decoration: underline;color: #666;}
+.footer{width: 100%;font-size: 14px;height: 30px;line-height: 30px;text-align: center;background-color: #333;color: #ddd;clear: both;}
